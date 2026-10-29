@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register for HER VOICE 2027, a conference celebrating women shaping the future of language.">
+  <title>Registration | HER VOICE 2027</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  
+<header class="site-header">
+  <a href="index.html" class="wordmark">
+    HER VOICE<span>27</span>
+  </a>
+
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+    ☰
+  </button>
+
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="speakers.html">Speakers</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="workshops.html">Workshops</a>
+    <a href="community.html">Community</a>
+    <a href="venue.html">Venue</a>
+    <a href="register.html" class="nav-cta">Register</a>
+  </nav>
+</header>
+
+
+
+  <main id="main-content">
+
+    <!-- Registration Hero -->
+    <section class="page-hero">
+      <p class="eyebrow">YOUR PLACE IS WAITING</p>
+      <h1>Make room for <em>your voice.</em></h1>
+      <p>
+        Three days of fresh perspectives, thoughtful conversations,
+        and connections that continue long after the conference ends.
+      </p>
+      <div class="registration-details">
+        <span>OCTOBER 15–17, 2027</span>
+        <span>PHOENIX, ARIZONA</span>
+      </div>
+    </section>
+
+
+    <!-- Registration Content -->
+    <section class="registration-layout">
+
+      <div class="registration-intro">
+        <p class="eyebrow">HER VOICE 2027</p>
+        <h2>Come as you are. <em>Leave inspired.</em></h2>
+
+        <p>
+          Whether you work in translation, interpreting, education,
+          linguistics, or another language-centered field, HER VOICE
+          is a space to share your experience and discover what's possible.
+        </p>
+
+        <div class="registration-benefits">
+          <div class="benefit">
+            <span class="benefit-symbol">✳</span>
+            <div>
+              <h3>Learn something new</h3>
+              <p>Explore talks, panels, and practical workshops.</p>
+            </div>
+          </div>
+
+          <div class="benefit">
+            <span class="benefit-symbol">✳</span>
+            <div>
+              <h3>Find your people</h3>
+              <p>Meet women with different experiences and shared ambitions.</p>
+            </div>
+          </div>
+
+          <div class="benefit">
+            <span class="benefit-symbol">✳</span>
+            <div>
+              <h3>Take ideas with you</h3>
+              <p>Leave with fresh perspectives and new connections.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="registration-note">
+          <p>
+            <strong>Have questions?</strong><br>
+            Visit our <a href="faq.html">frequently asked questions</a>
+            or explore the <a href="schedule.html">conference program</a>.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- Sign-Up Form -->
+      <div class="registration-form-card">
+        <p class="eyebrow">TAKE YOUR PLACE</p>
+        <h2>Registration <em>of interest</em></h2>
+        <p class="form-description">
+          Tell us a little about yourself to begin your registration.
+        </p>
+
+        <form class="registration-form" action="#" method="post">
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="first-name">First name *</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first_name"
+                placeholder="Your first name"
+                autocomplete="given-name"
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="last-name">Last name *</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last_name"
+                placeholder="Your last name"
+                autocomplete="family-name"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="profession">What best describes your work? *</label>
+            <select id="profession" name="profession" required>
+              <option value="">Choose your field</option>
+              <option value="translation">Translation & Localization</option>
+              <option value="interpreting">Interpreting</option>
+              <option value="linguistics">Linguistics & Research</option>
+              <option value="education">Education & Language Teaching</option>
+              <option value="technology">Language Technology</option>
+              <option value="student">Student or Emerging Professional</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <fieldset class="ticket-options">
+            <legend>Choose your preferred pass *</legend>
+
+            <label class="ticket-option">
+              <input
+                type="radio"
+                name="ticket"
+                value="full-conference"
+                required
+              >
+              <span class="ticket-copy">
+                <strong>Full Conference</strong>
+                <small>Three days of talks, sessions, and community events</small>
+              </span>
+              <span class="ticket-price">$349</span>
+            </label>
+
+            <label class="ticket-option">
+              <input
+                type="radio"
+                name="ticket"
+                value="student"
+              >
+              <span class="ticket-copy">
+                <strong>Student Pass</strong>
+                <small>For students and emerging professionals</small>
+              </span>
+              <span class="ticket-price">$149</span>
+            </label>
+
+            <label class="ticket-option">
+              <input
+                type="radio"
+                name="ticket"
+                value="single-day"
+              >
+              <span class="ticket-copy">
+                <strong>Single-Day Pass</strong>
+                <small>Attend one day of the conference</small>
+              </span>
+              <span class="ticket-price">$179</span>
+            </label>
+          </fieldset>
+
+          <label class="consent-option">
+            <input type="checkbox" name="updates" value="yes">
+            <span>I'd like to receive occasional conference updates and announcements.</span>
+          </label>
+
+          <button type="submit" class="button button-dark form-submit">
+            Continue Registration →
+          </button>
+
+          <p class="form-disclaimer">
+            This demonstration form does not process payments or save submissions.
+            Registration details and prices are illustrative.
+          </p>
+
+        </form>
+      </div>
+
+    </section>
+
+
+    <!-- Closing Call to Action -->
+    <section class="register-banner">
+      <p class="eyebrow">A CONVERSATION WORTH JOINING</p>
+      <h2>Your voice belongs <em>in the room.</em></h2>
+      <p>
+        Discover the people, ideas, and experiences bringing HER VOICE to life.
+      </p>
+      <a href="speakers.html" class="button button-light">
+        Meet the Speakers ↗
+      </a>
+    </section>
+
+  </main>
+
+
+ 
+<footer class="site-footer">
+  <a href="index.html" class="wordmark wordmark-light">
+    HER VOICE<span>27</span>
+  </a>
+
+  <p>
+    Creating space for women shaping the future of language.
+  </p>
+
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="speakers.html">Speakers</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="workshops.html">Workshops</a>
+    <a href="community.html">Community</a>
+    <a href="venue.html">Venue</a>
+    <a href="register.html">Register</a>
+  </div>
+
+  <p class="copyright">
+    © 2027 HER VOICE. Lesley O.
+  </p>
+</footer>
+
+
+</body>
+</html>
