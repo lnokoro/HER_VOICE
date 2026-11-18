@@ -2956,3 +2956,46 @@ h3 {
     min-height: 260px;
   }
 }
+
+
+
+/* 1. Simplify homepage hero artwork */
+
+.hero-oval {
+  display: none;
+}
+
+.hero-circle {
+  width: 70%;
+  top: 11%;
+  right: 8%;
+}
+
+.hero-star {
+  font-size: 4.2rem;
+  top: 2%;
+  left: 12%;
+}
+
+
+/* 2. Refine featured speaker labels */
+
+.featured-speakers .speaker-field {
+  color: var(--wine);
+  font-size: 0.63rem;
+  letter-spacing: 0.08em;
+}
+
+
+.speaker-image:hover {
+  filter: saturate(1.05);
+}
+
+
+.explore-card:hover {
+  background: rgba(216, 154, 159, 0.10);
+}
+
+.explore-card:hover .explore-arrow {
+  transform: translate(2px, -2px);
+}
